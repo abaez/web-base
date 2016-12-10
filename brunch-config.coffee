@@ -13,6 +13,13 @@ module.exports =
     stylesheets:
       joinTo:
         '/styles/app.css': /^src/
+    overrides:
+      production:
+        optimize: true,
+        sourceMaps: false,
+        plugins:
+          autoReload:
+            enable: false
 
   paths:
     watched: [
