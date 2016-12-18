@@ -12,7 +12,8 @@ module.exports =
         '/scripts/vendor.js': /^(?!src)/
     stylesheets:
       joinTo:
-        '/styles/app.css': /^src/
+        '/styles/app.css': /.*(less|css)$/
+        '/scripts/vendor.css': /^(?!src)\/.*(less|css)$/
     overrides:
       production:
         optimize: true,
@@ -28,6 +29,19 @@ module.exports =
     public: "public"
 
   plugins:
+    babel:
+      presets: ["es2015"]
+    autoReload:
+      match:
+        stylesheets: [
+          "*.css"
+        ],
+        javascripts: [
+          "*.js"
+        ],
+        templates: [
+          "*.pug"
+        ]
     less:
       dumpLineNumbers: "comments"
     elmBrunch:
@@ -36,6 +50,7 @@ module.exports =
     pug:
       pretty: true
       doctype: 'html'
+      preCompile: true
       locals:
         appName: "Ale Site"
       globals: [
