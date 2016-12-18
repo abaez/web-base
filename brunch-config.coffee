@@ -32,4 +32,11 @@ module.exports =
       mainModules: ["src/elm/Main.elm"]
       outputFolder: "public/scripts/"
     pug:
+      pretty: true
       doctype: 'html'
+      locals:
+        appName: "Ale Site"
+      globals: [
+        "App"
+      ]
+
