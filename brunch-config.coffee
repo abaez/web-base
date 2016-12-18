@@ -28,6 +28,8 @@ module.exports =
     public: "public"
 
   plugins:
+    less:
+      dumpLineNumbers: "comments"
     elmBrunch:
       mainModules: ["src/elm/Main.elm"]
       outputFolder: "public/scripts/"
