@@ -9,6 +9,7 @@
     "start": "brunch build --production",
     "dev": "brunch build",
     "watch": "brunch watch --server",
+    "elm": "elm make ./src/elm/Main.elm --output public/scripts/main.js",
     "cleanall": "rm ./public -rf"
   },
   "dependencies": {
