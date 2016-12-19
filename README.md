@@ -1,5 +1,5 @@
 # web-base
-A small web base for by [Alejandro Baez][tw].
+A small web base for/by [Alejandro Baez][tw].
 
 
 ### DESCRIPTION
