@@ -1,4 +1,7 @@
 # web-base
+[![twitter][1i]][1p]
+[![license][2i]][2p]
+
 A small web base for/by [Alejandro Baez][tw].
 
 
@@ -61,3 +64,8 @@ The directory tree is as follows:
 [less]: http://lesscss.org/
 [npm]: https://npmjs.org
 [yarn]: https://yarnpkg.com
+
+[1i]: https://img.shields.io/badge/twitter-a_baez-blue.svg
+[1p]: https://twitter.com/a_baez
+[2i]: https://img.shields.io/badge/license-MIT-green.svg
+[2p]: ./LICENSE.md
