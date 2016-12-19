@@ -1,6 +1,6 @@
 {
   "name": "baez-web",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Website of yours truly",
   "main": "index.js",
   "author": "Alejandro Baez <keybase.io/baez>",
