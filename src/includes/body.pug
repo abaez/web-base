@@ -1,10 +1,10 @@
 div#elm-main
 
 script.
-  (
-    function() {
-      var node = documeng.getElementById("elm-main");
-      var app = Elm.ElmModule.embed(node);
-    }()
-  );
-
+  document.addEventListener(
+    "DOMContentLoaded",
+    () => {
+        const node = document.getElementById("elm-main")
+        Elm.ElmModule.embed(node)
+    }
+  )

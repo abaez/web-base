@@ -47,6 +47,8 @@ module.exports =
     elmBrunch:
       mainModules: ["src/elm/Main.elm"]
       outputFolder: "public/scripts/"
+      outputFile: "main.js"
+
     pug:
       pretty: true
       doctype: 'html'
