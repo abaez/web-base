@@ -12,13 +12,13 @@ module.exports =
     stylesheets:
       joinTo:
         '/styles/app.css'
-    overrides:
-      production:
-        optimize: true,
-        sourceMaps: false,
-        plugins:
-          autoReload:
-            enable: false
+  overrides:
+    production:
+      optimize: true,
+      sourceMaps: false,
+      plugins:
+        autoReload:
+          enable: false
 
   paths:
     watched: [
