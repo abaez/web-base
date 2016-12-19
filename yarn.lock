@@ -1144,6 +1144,10 @@ elliptic@^6.0.0:
     hash.js "^1.0.0"
     inherits "^2.0.1"
 
+elm-brunch@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/elm-brunch/-/elm-brunch-0.7.0.tgz#97903f585d17404d07a541bdb60ffd3a7096de0c"
+
 elm@^0.18.0:
   version "0.18.0"
   resolved "https://registry.yarnpkg.com/elm/-/elm-0.18.0.tgz#919b8309cd939dfe2ff9d252d961b6c89509b970"
@@ -2869,16 +2873,7 @@ uglify-js-brunch@^2.0.1:
   dependencies:
     uglify-js "~2.6.1"
 
-uglify-js@^2.6.1:
-  version "2.7.5"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.7.5.tgz#4612c0c7baaee2ba7c487de4904ae122079f2ca8"
-  dependencies:
-    async "~0.2.6"
-    source-map "~0.5.1"
-    uglify-to-browserify "~1.0.0"
-    yargs "~3.10.0"
-
-uglify-js@~2.6.1:
+uglify-js@^2.6.1, uglify-js@~2.6.1:
   version "2.6.4"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.6.4.tgz#65ea2fb3059c9394692f15fed87c2b36c16b9adf"
   dependencies:

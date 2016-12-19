@@ -18,7 +18,7 @@ module.exports =
       sourceMaps: false,
       plugins:
         autoReload:
-          enable: false
+          enabled: false
 
   paths:
     watched: [
