@@ -1,9 +1,9 @@
 {
-  "name": "baez-web",
-  "version": "0.7.0",
+  "name": "web-base",
+  "version": "0.8.0",
   "description": "Website of yours truly",
   "main": "index.js",
-  "author": "Alejandro Baez <keybase.io/baez>",
+  "author": "Alejandro Baez <https://twitter.com/a_baez>",
   "license": "BSD",
   "scripts": {
     "start": "brunch build --production",

@@ -26,12 +26,20 @@ main =
     [
       ul []
         [ getLocation
-          { url = "https://twitter.com/a_baez"
-          , text = "Alejandro Baez"
+          { url = "https://pugjs.org/api/getting-started.html"
+          , text = "Pug"
           }
         , getLocation
           { url = "http://brunch.io"
           , text = "Brunch"
+          }
+        , getLocation
+          { url = "http://elm-lang.org"
+          , text = "Elm"
+          }
+        , getLocation
+          { url = "http://lesscss.org"
+          , text = "Less"
           }
         ]
 

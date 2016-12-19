@@ -52,7 +52,7 @@ module.exports =
       doctype: 'html'
       preCompile: true
       locals:
-        appName: "Ale Site"
+        appName: "A Site"
       globals: [
         "App"
       ]
