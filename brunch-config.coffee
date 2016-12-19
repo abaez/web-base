@@ -8,11 +8,10 @@ module.exports =
   files:
     javascripts:
       joinTo:
-        '/scripts/app.js': /^src/,
+        '/scripts/app.js'
     stylesheets:
       joinTo:
-        '/styles/app.css': /.*(less|css)$/
-        '/scripts/vendor.css': /^(?!src)\/.*(less|css)$/
+        '/styles/app.css'
     overrides:
       production:
         optimize: true,
