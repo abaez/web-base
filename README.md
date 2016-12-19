@@ -42,12 +42,11 @@ Finally, follow directory tree under `src` and you should be good to go.
 
 The directory tree is as follows:
 
-* src
-  * assets -- all assets to be directly exported to your web project.
+* assets/ -- all assets to be directly exported to your web project.
     * **index.pug** -- the main source location to connect elm,pug,less and any other things together.
-  * elm -- where all your code of elm should live.
+* elm/ -- where all your code of elm should live.
     * **Main.elm** -- your entire project should source into this module as its base.
-  * includes -- all templates go here (aka: pug).
+* includes/ -- all templates go here (aka: pug).
     * **head.pug** -- load all `<head>` requirements.
     * **loader.pug** -- embeds elm into your webapp.
     * (_optional_) **header.pug** -- the header of your webapp.
