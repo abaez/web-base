@@ -9,7 +9,6 @@ module.exports =
     javascripts:
       joinTo:
         '/scripts/app.js': /^src/,
-        '/scripts/vendor.js': /^(?!src)/
     stylesheets:
       joinTo:
         '/styles/app.css': /.*(less|css)$/
