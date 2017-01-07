@@ -4,11 +4,11 @@
   "description": "A web application base",
   "main": "index.js",
   "author": "Alejandro Baez <https://twitter.com/a_baez>",
-  "license": "BSD",
+  "license": "MIT",
   "scripts": {
-    "start": "brunch build --production",
-    "dev": "brunch build",
-    "watch": "brunch watch --server",
+    "start": "yarn run brunch build -- --production",
+    "build": "yarn run brunch build",
+    "watch": "yarn run brunch watch -- --server",
     "elm": "elm make ./src/elm/Main.elm --output public/scripts/main.js",
     "cleanall": "rm ./public -rf"
   },
