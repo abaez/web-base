@@ -1,10 +1,12 @@
 # See http://brunch.io for documentation.
 
 module.exports =
+
+
   npm:
     enabled: true
 
-  # files part
+
   files:
     javascripts:
       joinTo:
@@ -12,6 +14,8 @@ module.exports =
     stylesheets:
       joinTo:
         '/styles/app.css'
+
+
   overrides:
     production:
       optimize: true,
@@ -20,11 +24,13 @@ module.exports =
         autoReload:
           enabled: false
 
+
   paths:
     watched: [
       'src/'
     ]
     public: "public"
+
 
   plugins:
     babel:
@@ -46,7 +52,6 @@ module.exports =
       mainModules: ["src/elm/Main.elm"]
       outputFolder: "public/scripts/"
       outputFile: "main.js"
-
     pug:
       pretty: true
       doctype: 'html'
