@@ -34,10 +34,10 @@ npm install
 Then, whenever you want to build your repository with [Brunch] do the following:
 
 ``` fish
-brunch build
+yarn build
 
 # or if you want streamline things, use watch
-brunch watch
+yarn watch
 ```
 
 
