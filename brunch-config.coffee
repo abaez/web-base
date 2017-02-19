@@ -10,10 +10,15 @@ module.exports =
   files:
     javascripts:
       joinTo:
-        '/scripts/app.js'
+        '/deploy.js': /(?:deploy)/,
+        '/scripts/app.js': /^(src)\/(?!deploy)/,
+        '/scripts/vendor.js': /^(?!src)/
     stylesheets:
       joinTo:
         '/styles/app.css'
+    templates:
+      joinTo:
+        '/scripts/templates.js'
 
 
   overrides:
