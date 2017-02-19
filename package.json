@@ -1,18 +1,21 @@
 {
   "name": "web-base",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A web application base",
   "main": "index.js",
   "author": "Alejandro Baez <https://twitter.com/a_baez>",
   "license": "MIT",
   "scripts": {
-    "start": "yarn run brunch build -- --production",
+    "start": "yarn cleanall; yarn prod; yarn deploy",
+    "deploy": "node public/deploy.js",
+    "prod": "yarn run brunch build -- --production",
     "build": "yarn run brunch build",
     "watch": "yarn run brunch watch -- --server",
     "elm": "elm make ./src/elm/Main.elm --output public/scripts/main.js",
-    "cleanall": "rm ./public -rf"
+    "cleanall": "rm ./public -rf",
+    "test": "yarn run brunch b -- -d"
   },
-  "dependencies": {
+  "devDependencies": {
     "auto-reload-brunch": "^2.7.1",
     "brunch": "^2.9.1",
     "clean-css-brunch": "^2.0.0",
